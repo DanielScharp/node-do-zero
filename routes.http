@@ -1,17 +1,17 @@
-POST http://localhost:3333/videos
+POST https://node-do-zero-4f1n.onrender.com/videos
 Content-Type: application/json
 
 {
-    "title": "My First node2",
+    "title": "produção",
     "description": "This is a description of my first video.",
     "duration": 300
 }
 
 ###
-GET http://localhost:3333/videos
+GET https://node-do-zero-4f1n.onrender.com/videos
 
 ###
-PUT http://localhost:3333/videos/d00f0d4a-d740-40f2-a445-dfbd77eb8a79
+PUT https://node-do-zero-4f1n.onrender.com/videos/d00f0d4a-d740-40f2-a445-dfbd77eb8a79
 Content-Type: application/json
 
 {
@@ -21,6 +21,6 @@ Content-Type: application/json
 }
 
 ###
-DELETE  http://localhost:3333/videos/d00f0d4a-d740-40f2-a445-dfbd77eb8a79
+DELETE  https://node-do-zero-4f1n.onrender.com/videos/d00f0d4a-d740-40f2-a445-dfbd77eb8a79
 
 
